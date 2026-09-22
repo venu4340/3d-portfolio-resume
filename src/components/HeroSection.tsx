@@ -74,8 +74,8 @@ export const HeroSection: React.FC = () => {
           playsInline
           className="h-screen w-auto max-w-none object-contain origin-right scale-95 md:scale-[0.98] lg:scale-100 filter contrast-[1.08] brightness-[0.95]"
         >
-          <source src="/videos/venuvideo.mp4" type="video/mp4" />
-          <source src="/videos/hero.mp4" type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}videos/venuvideo.mp4`} type="video/mp4" />
+          <source src={`${import.meta.env.BASE_URL}videos/hero.mp4`} type="video/mp4" />
         </video>
 
         {/* Seamless Soft Left Edge Blend */}
